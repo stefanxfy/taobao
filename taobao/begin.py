@@ -1,7 +1,7 @@
 from scrapy import cmdline
-#cmdline.execute("scrapy crawl tencent".split())#执行一个爬虫
-cmdline.execute("scrapy genspider taobaoScrapy  taobao.com".split())# 自动创建一个名为myItcast的爬虫，并且要给一个域名范围
-#cmdline.execute("scrapy crawl myItcast -o teachers.xml".split())
+#cmdline.execute("scrapy crawl taobaoScrapy".split())#执行一个爬虫
+#cmdline.execute("scrapy genspider taobaoScrapy  taobao.com".split())# 自动创建一个名为myItcast的爬虫，并且要给一个域名范围
+cmdline.execute("scrapy crawl taobaoScrapy -o tmail1.csv".split())
 #cmdline.execute("scrapy shell 'http://hr.tencent.com/position.php?&start=0#a'".split())
 #cmdline.execute(r"scrapy startproject D:\mypython\tencent".split())
 '''

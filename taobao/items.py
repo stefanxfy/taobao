@@ -15,6 +15,3 @@ class TaobaoItem(scrapy.Item):
     goods_name=scrapy.Field()
     goods_url=scrapy.Field()
     shop_name=scrapy.Field()
-    shop_url=scrapy.Field()
-    company_name=scrapy.Field()
-    company_address=scrapy.Field()

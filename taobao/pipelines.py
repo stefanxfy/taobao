@@ -7,5 +7,8 @@
 
 
 class TaobaoPipeline(object):
+    def __init__(self):
+        self.num=0;
     def process_item(self, item, spider):
+        print(self.num+1)
         return item
